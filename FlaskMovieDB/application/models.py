@@ -10,3 +10,5 @@ class Review(db.Model): # customise
     rating = db.Column(db.Integer)
     movies_id = db.Column(db.Integer, db.ForeignKey('movies.id'), nullable=True)
 
+
+
